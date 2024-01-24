@@ -1,0 +1,17 @@
+.light-dark-mode{
+    padding: 180px 500px;
+    transition: background-color 0.3s ease;
+}
+
+  
+  .light {
+    /* background-color: #fff; */
+    background: linear-gradient(135deg, #f0f0f0, #ffb1b1);
+    color: #000;
+  }
+  
+  .dark {
+    background: linear-gradient(135deg, #333, #8c8c9b);
+    color: #fff;
+  }
+  
