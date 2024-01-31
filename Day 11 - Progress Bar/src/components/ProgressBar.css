@@ -1,0 +1,22 @@
+.progress{
+    width: 500px;
+    border: solid #fff;
+    border-width: 1px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.progress div{
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+}
