@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+  }
+  #section1 {
+    background-color: #1abc9c;
+  }
+  #section2 {
+    background-color: #3498db;
+  }
+  #section3 {
+    background-color: #9b59b6;
+  }
+  #section4 {
+    background-color: #e74c3c;
+  }
+  .fadeInUp {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  .fadeInUp.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
